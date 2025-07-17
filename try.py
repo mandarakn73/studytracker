@@ -20,7 +20,7 @@ with st.form("add_study_form"):
     date = st.date_input("Date")
     hours = st.number_input("Hours Studied", min_value=0.0, step=0.5)
 
-    submitted = st.form_submit_button("Add Record")
+    submitted = st.form_submit_button("Add madrleee")
     if submitted:
         if subject.strip() == "":
             st.error("Subject cannot be empty.")
